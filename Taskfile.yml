@@ -1,0 +1,9 @@
+version: '3'
+
+env:
+  GREETING: Hey, there!
+
+tasks:
+  default:
+    cmds:
+      - echo $GREETING
